@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: rgb(26, 205, 205);
+    padding: 50px;
+    font-size: large;
+}
+[onclick]:hover {
+    cursor: pointer;
+}
+[onclick][style]:hover{
+    cursor: initial;
+}
+p{
+    color: darkgoldenrod;
+}
+h1 img{
+    max-width: 60px;
+}
+form fieldset{
+    border:solid 3px gold;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+section{
+    border:solid 3px gold;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gold inset;
+    max-width: 900px;
+    margin:1.25rem auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+}
+.flex p{
+    margin: 10px;
+}
+.flex div{
+    padding: 10px;
+    min-width: 200px;
+}
+.var{
+    color: cornflowerblue;
+}
+.blue{
+    color: blue;
+}
+.j{
+    color: #dcdcaa;
+}
+.let{
+    color: darkblue;
+}
+
+
+
+/* bouton change de couleur aléatoire */
+#boutonCouleur, #boutonEvent{
+    color: black;
+    background-color: darkorange;
+    padding: 20px;
+    border:solid 3px gold;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px gold inset;
+}
+.divColor{
+    margin: 50px 250px;
+    padding: 10px;
+    flex-direction: column;
+    border:solid 3px gold;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px gold inset;
+}
+.bgBlack{
+    background-color: black;
+}
+
+.pad-y-100{
+    padding: 0px 100px;
+}
+/* changement de theme */
+/*theme sombre */
+.light-theme{
+    padding: 100px 0px;
+    text-align: left;
+}
+.msg
+.pBton{
+    display: flex;
+}
+.btn{
+    text-align: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: gold;
+    color: rgb(30, 30, 30);
+}
+/* theme clair 
+#SectionTheme{
+background-color: gold;
+color: rgb(30, 30, 30);
+}
+*/
+.articles{
+    background: linear-gradient(grey, blue);
+    max-width: 400px;
+    border-radius: 25px;
+    margin: 5px;
+    color: white;
+}
