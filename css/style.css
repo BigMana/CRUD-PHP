@@ -11,6 +11,9 @@ body{
 [onclick][style]:hover{
     cursor: initial;
 }
+a {
+    text-decoration: none;
+}
 p{
     color: darkgoldenrod;
 }
@@ -94,7 +97,7 @@ section{
 .btn{
     text-align: center;
     justify-content: center;
-
+    padding: 10px;
     width: 70px;
     height: 70px;
     border-radius: 50px;
