@@ -33,6 +33,15 @@ section{
     max-width: 900px;
     margin:1.25rem auto;
 }
+/* tr{
+    padding: 5px;
+    margin: 5px;
+} */
+td{
+    padding: 15px;
+    margin: 15px;
+    border: #dcdcaa solid 1px;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -97,10 +106,10 @@ section{
 .btn{
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     width: 70px;
     height: 70px;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: gold;
     color: rgb(30, 30, 30);
 }
